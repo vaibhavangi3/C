@@ -4,6 +4,7 @@
   deleteNode deletes a node when passed with a key of the node.
 */
 #include<stdio.h>
+#include<stdlib.h> //header file to perform dynamic memory allocation
 struct node
 {int info;
  struct node *link;
